@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails QaUapp: test" uuid="f57826aa-b2ec-403d-ac17-2908a0041ba4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails QaUapp: development" uuid="58b5ea90-dda5-4d3f-a973-7a6f566359a9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails QaUapp: production" uuid="1512eda2-8354-474d-ad54-73887666aa25">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
