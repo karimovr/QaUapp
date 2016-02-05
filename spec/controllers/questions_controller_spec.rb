@@ -8,6 +8,7 @@ RSpec.describe QuestionsController, type: :controller do
       questions = FactoryGirl.create_list(:question, 3)
 
       expect(assigns(:questions)).to eq questions
+      expect(assigns(:questions).all).to eq questions
     end
     it 'renders index template' do
 
