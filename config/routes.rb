@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :question
+  devise_for :users
   resources :questions do
     resources :answers
 
