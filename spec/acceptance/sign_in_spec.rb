@@ -11,7 +11,6 @@ I want to be able to sign in
     visit new_user_session_path
     fill_in 'Email',  with: user.email
     fill_in 'Password', with: '123456789'
-
     click_on 'Log in'
 
     expect(page).to have_content 'Signed in successfully'
@@ -21,7 +20,6 @@ I want to be able to sign in
     visit new_user_session_path
     fill_in 'Email',  with: 'wrong@test.com'
     fill_in 'Password', with: 'wrong'
-
     click_on 'Log in'
 
     expect(page).to have_content 'Invalid email or password'
